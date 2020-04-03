@@ -48,7 +48,17 @@ Optional Dependencies: None
     Find-ProcessDLLHijack               -   finds potential DLL hijacking opportunities for currently running processes
     Find-PathDLLHijack                  -   finds service %PATH% DLL hijacking opportunities
     Write-HijackDll                     -   writes out a hijackable DLL
+   
+### Exectuable Hijacking (only relevant for multiuser systems such as VDI) 
+    [TODO]Find-ExecutalbeExeHijack            -   Find executable exe files
+    [TODO]Find-ExecutableMsiHijack            -   Find hijackable executable msi files
+    [TODO]Write-HijackExecutable              -   Write out a hijackable executable file
+
+### Config Hijacking (only relevant for multiuser systems such as VDI) 
+    [TODO]Find-ConfigHijack                   -   Find config in system folders to hijack
     
+
+ 
 ### Registry Checks:
     Get-RegistryAlwaysInstallElevated   -   checks if the AlwaysInstallElevated registry key is set
     Get-RegistryAutoLogon               -   checks for Autologon credentials in the registry
